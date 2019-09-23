@@ -11,8 +11,11 @@ function loadNavBar() {
   rightDiv.classList.add('right-align');
 
   const span1 = document.createElement('span');
+  span1.classList.add('right');
   const span2 = document.createElement('span');
+  span2.classList.add('right');
   const span3 = document.createElement('span');
+  span3.classList.add('right');
 
   span1.id = 'home';
   span2.id = 'menu';
