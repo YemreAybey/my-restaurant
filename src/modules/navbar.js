@@ -1,3 +1,4 @@
+/* eslint-env browser */
 function loadNavBar() {
   const nav = document.createElement('nav');
   nav.classList.add('navigation');

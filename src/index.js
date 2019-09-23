@@ -1,3 +1,4 @@
+/* eslint-env browser */
 import homeLoad from './modules/home';
 import loadNavBar from './modules/navbar';
 import loadMenu from './modules/menu';

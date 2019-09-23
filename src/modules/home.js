@@ -1,3 +1,4 @@
+/* eslint-env browser */
 function homeLoad() {
   const div = document.createElement('div');
   const head1 = document.createElement('h1');

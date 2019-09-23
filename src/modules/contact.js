@@ -1,3 +1,4 @@
+/* eslint-env browser */
 function loadContact(){
   const contArea = document.createElement('div');
   contArea.classList.add('contact');
