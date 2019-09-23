@@ -20,7 +20,7 @@ function render(e) {
     body.style.backgroundImage = "url('imgs/about.jpg')";
     body.style.backgroundColor = 'none';
     content.appendChild(home);
-    navs.forEach(n => {
+    navs.forEach((n) => {
       n.style.color = 'rgb(238, 212, 109)';
     });
     brand.style.color = 'rgb(253, 255, 116)';
@@ -28,7 +28,7 @@ function render(e) {
     body.style.backgroundImage = 'none';
     body.style.backgroundColor = 'white';
     content.appendChild(menu);
-    navs.forEach(n => { 
+    navs.forEach((n) => {
       n.style.color = 'black';
     });
     brand.style.color = 'black';
@@ -36,7 +36,7 @@ function render(e) {
     body.style.backgroundImage = 'none';
     body.style.backgroundColor = '#8aace9';
     content.appendChild(contact);
-    navs.forEach(n => {
+    navs.forEach((n) => {
       n.style.color = 'black';
     });
     brand.style.color = 'black';
