@@ -15,4 +15,4 @@ function homeLoad() {
   return div;
 }
 
-export default homeLoad
+export default homeLoad;

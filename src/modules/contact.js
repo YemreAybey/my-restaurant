@@ -1,12 +1,12 @@
 /* eslint-env browser */
-function loadContact(){
+function loadContact() {
   const contArea = document.createElement('div');
   contArea.classList.add('contact');
 
   const phoneArea = document.createElement('div');
   phoneArea.classList.add('phone');
   const num = document.createElement('span');
-  num.innerHTML = 'Our Phone Number is<br>+90 0795 976 34 45'
+  num.innerHTML = 'Our Phone Number is<br>+90 0795 976 34 45';
   phoneArea.appendChild(num);
 
   const chatAra = document.createElement('div');
@@ -25,4 +25,4 @@ function loadContact(){
   return contArea;
 }
 
-export default loadContact
+export default loadContact;

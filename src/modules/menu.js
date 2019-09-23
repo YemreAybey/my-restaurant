@@ -1,3 +1,4 @@
+/* eslint-env browser */
 function creatItems(name, price, dis) {
   const part = document.createElement('div');
   part.classList.add('menu_item');
@@ -33,7 +34,7 @@ function createSection(header) {
   return part;
 }
 
-function loadMenu(){
+function loadMenu() {
   const section = document.createElement('section');
   section.classList.add('menu');
 
@@ -64,4 +65,4 @@ function loadMenu(){
   return section;
 }
 
-export default loadMenu
+export default loadMenu;
