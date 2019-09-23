@@ -1,6 +1,5 @@
 /* eslint-env browser */
 function loadNavBar() {
-
   const nav = document.createElement('nav');
   nav.classList.add('navigation');
 
@@ -35,7 +34,6 @@ function loadNavBar() {
   nav.appendChild(rightDiv);
 
   return nav;
-
 }
 
 export default loadNavBar;
